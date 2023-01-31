@@ -1,0 +1,63 @@
+.border{
+    border: 1px solid rgba(255, 0, 0, 0.438);
+    border-radius: 8px;
+    border-top-right-radius: 10px;
+}
+
+.border:hover {
+    border-radius: 18px;
+}
+
+#border {
+    border: 2px dashed rgba(0, 0, 255, 0.199);
+    border-radius: 8px;
+}
+
+#border:hover {
+    border-radius: 20px;
+}
+
+p {
+    /* display will change the behave of an element */
+    /* display: block; */
+    display: inline-block;
+}
+
+/* learn css grid and flexbox */
+
+.card {
+    /* display: flex; */
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.plan-featurs {
+    /* list-style-type: square; 
+     list-style-type: circle; */
+    /* list-style-type: decimal; */
+    /* list-style-position: inside; */
+    /* list-style-image: url("image'url"); */
+    /* short hand form: */
+    list-style: circle inside url("image url");
+}
+
+li {
+    display: inline-block;
+    gap: 15rem; 
+}
+
+p{
+    /* position: fixed; */
+    /* position: sticky; */
+    position: relative;
+}
+
+#viking {
+    /* background-image: url("image url"); */
+    /* for fixing image: */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: linear-gradient(rgba(0, 247, 255, 0.377), #846FFA, #F23B60, red, #00999D);
+}
